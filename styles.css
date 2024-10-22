@@ -1,3 +1,5 @@
+/* Mobile-first base styles */
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     margin: 10px;
@@ -116,4 +118,28 @@ body {
     font-weight: 400;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Tablet (min-width: 768px) */
+
+@media screen and (min-width: 768px) {
+
+    .color-panel, .font-panel {
+        display: inline-block;
+    }
+
+    .color-panel {
+        width: 46%;
+        margin-left: 8px;
+    }
+
+    .font-panel {
+        width: 30%;
+
+    }
+
+    .font-label {
+        margin-top: 0;
+    }
+
 }
